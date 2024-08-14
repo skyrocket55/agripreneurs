@@ -3681,6 +3681,16 @@ input, select, textarea {
 
 /* Footer */
 
+.qr-code {
+	text-align: center; /* Center-align the QR code */
+	margin-bottom: 20px; /* Space between QR code and button */
+  }
+  
+  .qr-code img {
+	width: 350px; /* Adjust width as needed */
+	height: auto; /* Maintain aspect ratio */
+  }
+
 	#footer {
 		display: -moz-flex;
 		display: -webkit-flex;
